@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+    
+
+    <fieldset>
+        <legend align="center">Login Form</legend>
+        <form>
+
+        <label for="userName">User Name: </label>
+        <input type="text" name="myName" id="userName" placeholder="Enter your Name">
+
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="mypassword" id="password">
+
+        <br><br>
+
+        <button>Login</button>
+
+    </form>
+    </fieldset>
+
+
+    <hr>
+    <hr>
+
+<!-- all Input Feilds must have a label
+must have Name and ID attribute -->
+
+    <form>
+        <input type="number">
+        <input type="email">
+        <input type="date">
+        <input type="time">
+        <input type="datetime-local">
+        <input type="range" min="0" max="10" value="3">
+
+        <input type="file" accept="images/.png.jpg">
+
+
+
+        <select name="course" id="">
+            <option value="">--Select Course--</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="mech">Mechinical</option>
+        </select>
+
+
+        <textarea name="" id="" rows="2" cols="10"></textarea>
+
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <span>Male</span>
+        <input type="radio" name="gender" id="female" value="female">
+        <span>Female</span>
+        <input type="radio" name="gender" id="other" value="other">
+        <span>Other</span>
+
+
+
+        <br><br>
+
+        <label for="skill">Skill</label>
+        <input type="checkbox" name="skill" id="java" value="java">
+        <span>Java</span>
+        <input type="checkbox" name="skill" id="dsa" value="dsa">
+        <span>DSA</span>
+        <input type="checkbox" name="skill" id="html" value="html">
+        <span>HTML</span>
+    </form>
+
+<img src="./Graphic Design Reuirement.png" alt="asdfghjkl" width="200px" height="100px">
+
+
+</body>
+</html>
