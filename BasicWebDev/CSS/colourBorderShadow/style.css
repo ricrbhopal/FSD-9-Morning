@@ -1,0 +1,88 @@
+* {
+  background-color: burlywood;
+}
+
+.cl1 {
+  background-color: bisque;
+  color: rebeccapurple;
+}
+
+#heading1 {
+  color: chartreuse;
+  border: 3px double black;
+  width: 200px;
+  height: 50px;
+}
+
+#data1 {
+  color: rgb(1, 44, 44);
+  border-color: crimson;
+  border-width: 2px;
+  border-style: groove;
+
+  text-shadow: 5px 0px 2px red;
+}
+
+#para1 {
+  color: darkorange;
+  height: 100px;
+  width: 500px;
+  border: 1px solid #000;
+  /* overflow: hidden;
+  overflow: scroll; */
+  overflow: auto;
+}
+
+#samplebtn1 {
+  background-color: rgb(72, 72, 244);
+  color: white;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+#samplebtn2 {
+  background-color: rgb(72, 72, 244);
+  color: white;
+  border: 1px solid blue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#data2 {
+  background-color: rgb(177, 253, 153);
+  color: rgb(249, 224, 1);
+  border-color: crimson;
+  border-width: 2px;
+  border-style: groove;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 2px 2px rgb(64, 0, 255);
+
+  text-shadow: 1px 1px 2px red;
+}
+
+#samplebtn1:hover {
+  color: rgb(72, 72, 244);
+  background-color: white;
+}
+
+#story {
+  border: 1px solid #000;
+  width: 500px;
+  height: 300px;
+
+  h3{
+    background-color: yellow;
+  }
+}
+
+#story h3 {
+  text-wrap-mode: nowrap;
+  overflow: auto;
+}
+
+#story p {
+    height: 220px;
+  overflow: auto;
+}
