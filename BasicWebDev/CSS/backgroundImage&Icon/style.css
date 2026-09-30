@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+#head {
+  background-color: rgb(8, 0, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10px;
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  color: aliceblue;
+}
+
+#hero {
+  border: 3px solid #ff0000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+    button {
+      border: 1px solid #000;
+      background-color: greenyellow;
+      padding: 7px 15px;
+      cursor: pointer;
+    }
+  }
+
+  background: url("./website-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
