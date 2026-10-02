@@ -1,0 +1,32 @@
+#card-parent {
+  width: 160px;
+  height: 500px;
+  border: 1px solid #000;
+}
+#card,
+#card2 {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+#card {
+  background-color: red;
+}
+
+#card2 {
+  background-color: green;
+}
+
+#card:hover {
+  /* margin: 20px; */
+  /* transform: translateY(20px); */
+  /* transform: rotatez(180deg); */
+  transform: scale(1.1);
+  transition: transform 1s;
+}

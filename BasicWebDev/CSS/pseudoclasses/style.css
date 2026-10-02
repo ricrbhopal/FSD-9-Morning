@@ -1,0 +1,70 @@
+#click {
+  border: 2px solid #ff0000;
+  padding: 5px 15px;
+  background-color: #fde1e1;
+  color: red;
+}
+
+#click:hover {
+  background-color: #fdfdfd;
+}
+
+#click:active {
+  background-color: #ff0000;
+  color: white;
+}
+
+#fullname {
+  background: #fce1e1;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#fullname:focus {
+  background-color: #fff;
+  outline-color: #ff0000;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+}
+
+thead tr:nth-child(1) {
+  background-color: red;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f58c8c;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffe0e0;
+}
+
+tbody tr td:first-child {
+  font-weight: 800;
+}
+
+#xyz {
+  display: flex;
+}
+
+.b {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 120px;
+}
+
+.b::before {
+  content: "৹";
+  padding: 5px;
+}
+
+
+.b::after{
+    content:"😎"
+}
